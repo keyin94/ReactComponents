@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.requirements {
+  float: left;
+  width: 24vw;
+  font-size: 11px;
+  margin-left: 5%;
+  border: 1px solid rgb(213, 210, 247);
+  box-shadow: 0 2px 3px rgb(163, 142, 240);
+  padding: 10px;
+  text-align: left;
+}
+
+.userSection {
+  float: right;
+  width: 51vw;
+  font-size: small;
+  margin-right: 5%;
+  border: 1px solid rgb(243, 194, 243);
+  box-shadow: 0 2px 3px rgb(235, 147, 238);
+  padding: 10px;
+  text-align: center;
+}
+
+.headerAssign {
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 32, 32),
+    rgb(215, 4, 243),
+    rgb(129, 12, 207)
+  );
+  color: white;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
